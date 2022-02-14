@@ -1,0 +1,24 @@
+<!-- <p>
+  active-user works!
+</p> -->
+<div class="container" style="margin-top: 100px;">
+  <h1 class="text-center">Usuarios Activos</h1>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col" hidden>#</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Edad</th>
+      <th scope="col">Activo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of activeusers">
+      <th scope="row" hidden>{{item.id}}</th>
+      <td>{{item.nombre}}</td>
+      <td>{{item.edad}}</td >
+      <td>{{item.activo}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
