@@ -2,6 +2,7 @@
 <!-- Comentario prueba2 -->
 <!-- Comentario prueba2 -->
 <!-- Comentario nuevo prueba2 -->
+<!-- Prueba desde comando prueba2 -->
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
 
 ## Development server
